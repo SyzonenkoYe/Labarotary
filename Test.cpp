@@ -19,7 +19,7 @@ namespace UnitTests
 			double to = 4;
 			double step = 3;
 			int n = 9;
-			int expected = 14;
+			int expected = 10000;
 			double x = from;
 			int actual = calculate(from, to, step, x, n);
 			Assert::AreEqual(expected, actual);
